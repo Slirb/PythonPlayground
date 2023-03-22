@@ -3,8 +3,8 @@ import psycopg2
 conn = psycopg2.connect(
     host="localhost",
     database="PyReddit",
-    user="postgres",
-    password="Slirb007")
+    user="",
+    password="")
 
 cur = conn.cursor()
 
