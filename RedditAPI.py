@@ -8,15 +8,15 @@ import psycopg2 #PostgreSQL connector
 conn = psycopg2.connect(
     host="localhost",
     database="PyReddit",
-    user="Vance",
-    password="Slirb007")
+    user="",
+    password="")
 
 #Variables to instantiate the praw object
-clientSecret = "3E9JfLWnPuW7de7DfV0WfSqeNPHs4w"
-clientID = "kf36NLXh-iX10g"
-password = "1Jigg@w@tt"
-userName = "Slirb"
-userAgent = "Python test script (by /u/Slirb)"
+clientSecret = ""
+clientID = "-"
+password = ""
+userName = ""
+userAgent = "
 
 #Connect to the DB
 cur = conn.cursor()
